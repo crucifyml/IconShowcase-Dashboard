@@ -91,3 +91,4 @@ proguard/
 /build
 /captures
 >>>>>>> 059150e5bf96ad06afc01e351d926c757ef87a6f
+gradle.properties
