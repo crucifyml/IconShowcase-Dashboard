@@ -19,7 +19,15 @@
 -keep class !android.support.v7.internal.view.menu**,** {*;}
 -keep class android.support.v7.graphics.** {*;}
 
--keep public class * implements com.bumptech.glide.module.GlideModule;
+-keep public class * implements com.bumptech.glide.module.GlideModule
+
+-keep class com.google.**
+-keep class autovalue.shaded.com.google.**
+-keep public class com.android.vending.licensing.ILicensingService
+
+-dontwarn org.apache.**
+-dontwarn com.google.**
+-dontwarn autovalue.shaded.com.google.**
 
 -dontwarn
 -ignorewarnings
